@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="descreption"
+      content="Is artificial intelligence a danger to programmers or not?"
+    />
+    <meta charset="UFT.8" />
+    <title>Book marker</title>
+
+   
+
+    <!-- Google fonts used -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- follow google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+
+    <!-- files bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- favIcon -->
+
+<link rel="icon" href="favicon.ico">
+    <!-- icons  -->
+    <link rel="stylesheet" href="icons/css/all.min.css" />
+    <!-- my file style -->
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head> 
+  <body >
+
+   <header class=" vh-100 pt-5 " >
+
+    <div class="container pt-3  overflow-hidden " id="contain" >
+
+            <div class="content">
+
+            <h1 class=" mb-4 " >Bookmarker</h1>
+                <p class="dots" >................................................................................................................................................................................................</p> 
+
+                    <div class="title d-flex mt-3 "> <span class="me-2" > <i class="fa-solid fa-bookmark  "></i> </span><h3> Bookmark your favorite sites </h3> <span class="ms-2" > <i class="fa-solid fa-bookmark "></i> </span> </div>
+                      
+                              <div class="inputs">
+
+                                        <label for="sn" class="mb-3" >  <i class="fa-solid fa-book-bookmark pe-2"></i>  site name </label>
+                                        <input type="text " id="sn" class="form-control mb-4 " placeholder="Site name"  >
+
+                                        <label for="su" class="mb-3" > <i class="fa-solid fa-link pe-2"></i> site url </label>
+                                        <input type="text" id="su"  class="form-control  mb-4 " placeholder="Site url"  >
+
+
+                                        <div class="butt text-center "> <button id="sub" onclick="addSite()" class=" sub " > Submit </button> </div>
+
+                              </div>
+                    
+                  <p class="dots" >................................................................................................................................................................................................</p> 
+                  
+                </div>
+
+<div class=" row ps-5  pt-2 pb-2 clients bg-white ">
+
+<div class=" clientfont col-2">Index</div>
+<div class=" clientfont col-4">Website name</div>
+<div class=" clientfont col-3 ps-4 ">visit</div>
+<div class=" clientfont col-3 ps-4 ">Delete</div>
+
+
+
+</div>
+
+<div class="siteData" id="siteData" >
+
+ <!-- there is code come from js to here -->
+
+</div>
+
+    </div>
+
+
+   </header>
+
+
+
+<script src="JS/bootstrap.bundle.min.js" ></script>
+<script src="./js/index.js" ></script>
+ </body>
+
+ </html>
